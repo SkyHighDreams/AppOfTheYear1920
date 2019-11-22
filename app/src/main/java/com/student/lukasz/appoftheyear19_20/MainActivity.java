@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 public void NextScreen(View view) {
-    Intent myIntent = new Intent(MainActivity.this, Second_Activity.class);
+    Intent myIntent = new Intent(MainActivity.this, Login_Activity.class);
     MainActivity.this.startActivity(myIntent);
 }
 }

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Kayeet</string>
-    <string name="string_lbl_sessicode" >Sessie Code:</string>
+    <string name="string_lbl_sessicode">Sessie Code:</string>
     <string name="string_lbl_login">Login</string>
     <string name="name_image_login_screen">image login screen</string>
     <string name="string_btn_Next">Next</string>
