@@ -22,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/img_main"
         android:layout_width="250dp"
         android:layout_height="350dp"
         android:layout_marginTop="10dp"
@@ -35,23 +35,24 @@
     <TextView
         android:id="@+id/lbl_sessioncode"
         android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="15dp"
-        android:text="@string/string_lbl_sessioncode"
+        android:text="@string/string_lbl_sessicode"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Next_main"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/img_main"
+        app:layout_constraintVertical_bias="0.089" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_Next_main"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:onClick="NextScreen"
         android:text="@string/string_btn_Next"
         android:textAlignment="center"
@@ -60,7 +61,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/txt_box_sessioncode"
+        android:id="@+id/txt_sessiecode"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -71,11 +72,11 @@
         android:hint="@string/string_lbl_Hint"
         android:inputType="text"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Next_main"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/lbl_sessioncode"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintTop_toBottomOf="@+id/img_main"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>
