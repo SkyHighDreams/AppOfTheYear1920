@@ -3,11 +3,12 @@
     <string name="string_lbl_sessicode">Sessie Code:</string>
     <string name="string_lbl_login">Login</string>
     <string name="name_image_login_screen">image login screen</string>
+    <string name="sting_btn_back">Back</string>
     <string name="string_btn_Next">Next</string>
     <string name="string_lbl_Hint">bv. 1A48D8</string>
     <string name="string_lbl_login_username">Username:</string>
     <string name="string_lbl_password">Password:</string>
-    <string name="sting_btn_back">Back</string>
     <string name="string_lbl_Hint_username">email-address, login</string>
     <string name="string_lbl_Hint_password">1A48D8</string>
+    <string name="string_lbl_answer">Answer</string>
 </resources>

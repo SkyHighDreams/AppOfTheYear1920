@@ -19,4 +19,10 @@ public class Login_Activity extends AppCompatActivity {
         Intent myIntent = new Intent(Login_Activity.this, MainActivity.class);
         Login_Activity.this.startActivity(myIntent);
     }
+
+    public void ToAnswerScreen4(View view)
+    {
+        Intent myIntent2 = new Intent(Login_Activity.this , Activity_4_answer.class);
+        Login_Activity.this.startActivity(myIntent2);
+    }
 }
