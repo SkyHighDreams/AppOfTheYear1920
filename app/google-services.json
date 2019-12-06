@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1089234572458",
+    "firebase_url": "https://kayeet-ead9b.firebaseio.com",
+    "project_id": "kayeet-ead9b",
+    "storage_bucket": "kayeet-ead9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089234572458:android:ad87ca134e51182d95ecd3",
+        "android_client_info": {
+          "package_name": "com.student.lukasz.appoftheyear19_20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089234572458-4be2m5goeq0bs3e4qc1rc81v7vopvflh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFDd3pT-Sas5fUCPk79rdsFUQzbodSqXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089234572458-4be2m5goeq0bs3e4qc1rc81v7vopvflh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
