@@ -34,42 +34,42 @@
 
         <!-- Rij 1-->
         <!-- kolom 1-->
-        <Button
+        <ImageButton
             android:id="@+id/btn_answer_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="1"/>
+            android:src="@drawable/facebooklike"/>
         <!-- Rij 1-->
         <!-- kolom 2-->
-        <Button
+        <ImageButton
             android:id="@+id/btn_answer_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="2" />
+            android:src="@drawable/instagram" />
 
         <!-- Rij 2-->
         <!-- kolom 1-->
-        <Button
+        <ImageButton
             android:id="@+id/btn_answer_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="3" />
+            android:src="@drawable/youtube" />
 
         <!-- Rij 2-->
         <!-- kolom 2-->
-        <Button
+        <ImageButton
             android:id="@+id/btn_answer_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:text="4" />
+            android:src="@drawable/facebooklogo" />
     </GridLayout>
 
 </LinearLayout>
