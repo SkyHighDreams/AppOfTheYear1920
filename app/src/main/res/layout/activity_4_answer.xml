@@ -40,7 +40,9 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:src="@drawable/facebooklike"/>
+            android:background="@drawable/background_btn_1"
+            android:onClick="Tologinscreen"
+            android:src="@drawable/facebooklike" />
         <!-- Rij 1-->
         <!-- kolom 2-->
         <ImageButton
@@ -49,7 +51,8 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:src="@drawable/instagram" />
+            android:src="@drawable/instagram"
+            android:background="@drawable/background_btn_2"/>
 
         <!-- Rij 2-->
         <!-- kolom 1-->
@@ -59,7 +62,8 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:src="@drawable/youtube" />
+            android:src="@drawable/youtube"
+            android:background="@drawable/background_btn_3"/>
 
         <!-- Rij 2-->
         <!-- kolom 2-->
@@ -69,7 +73,8 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:src="@drawable/facebooklogo" />
+            android:src="@drawable/facebooklogo"
+            android:background="@drawable/background_btn_4"/>
     </GridLayout>
 
 </LinearLayout>
